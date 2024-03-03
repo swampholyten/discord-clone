@@ -1,14 +1,15 @@
-import { useState } from 'react'
-import './App.css'
-
+import MainChat from './components/main/MainChat';
+import './style/App.css'
 
 export default function App(){
-  const [count, setCount] = useState(0);
 
   return (
     <>
       <div className='app'>
-        1
+        {/* <ServerList />
+        <ChannelList /> */}
+        <MainChat />
+
       </div>
     </>
   )
