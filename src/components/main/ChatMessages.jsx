@@ -8,10 +8,14 @@ export default function ChatMessages({ messages }) {
         <div key={index} className="message">
             <div className="imageContainer">
             <img src={message.userProfileImage} alt={`${message.user}'s profile`} className="profile-image" />
+            </div >
+            <div className="message-text">
+              
+              <strong>{message.user}:</strong>
+              <br></br>
+              <span>{message.message}</span>
+              <span className="timestamp">{message.time}</span>
             </div>
-          <strong>{message.user}:</strong> 
-          <span>{message.message}</span>
-          <span className="timestamp">{message.time}</span>
         </div>
       ))}
     </div>
