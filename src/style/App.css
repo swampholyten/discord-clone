@@ -1,3 +1,7 @@
 .app {
-  background: red;
+  
+  display: flex;
+  flex-direction: row; /* 默认值，可省略 */
+  align-items: start; /* 如果子元素高度不同，可以调整为start */
+  width: 100%; /* 取决于你的具体需求 */
 }

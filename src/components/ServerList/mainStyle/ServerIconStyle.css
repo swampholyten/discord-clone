@@ -1,0 +1,30 @@
+.serverContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .serverIcon {
+    width: 70%;
+    border-radius:50%;
+  }
+
+  .serverIcon:hover {
+    width:100%;
+  }
+  
+  .border-div {
+    margin-top: 8px; 
+    width: 32px; 
+    height: 2px;
+    border: 2px solid;
+    background-color: #333;
+    /*
+      background-opacity: 10%;
+      border-opacity: 10%;
+    */ 
+    border-color: #333;
+    
+    align-self: center;
+  }
+  

@@ -1,0 +1,8 @@
+.galleryGrid{
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+    padding-bottom: 5rem; 
+    background-color: #313338; 
+    max-width: 72px; 
+}
