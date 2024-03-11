@@ -1,0 +1,28 @@
+.discord-component{
+    background-color: #2b2d31;
+    color: aliceblue;
+    
+}
+
+.ServerTitle{
+    font-weight: bold;
+    display: flex;
+    border: 1px;
+    border-bottom: white;
+}
+
+.guild-icon{
+    width: 20px;
+}
+
+.dividerTitle{
+
+    height:3px;
+    background-color: rgb(89, 92, 96);
+}
+
+.channels{
+    width: 100px;
+    height: 530px;
+}
+

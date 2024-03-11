@@ -1,6 +1,8 @@
 // ChatInput.js
 
 import React, { useState } from 'react';
+import './mainStyle/ChatInputStyle.css';
+
 
 const ChatInput = ({ addMessage }) => {
   const [user, setUser] = useState('');

@@ -1,4 +1,6 @@
 .MainChat {
     background-color: #2e3035;
     flex-grow: 1;
+    height: 699px;
+    position: relative;
 }

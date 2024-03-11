@@ -1,0 +1,35 @@
+.chat-input {
+    
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    /*
+        if the father container's position is relative
+        we can use the absolute position for the son element
+    
+    */
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #383a3f;
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.1); /* 可选：添加顶部阴影以区分输入区域和内容区域 */
+    
+ }
+
+  .chat-input textarea,input{
+    background-color: #383a3f;
+    color: aliceblue;
+    font-weight: bold;
+  }
+  .chat-input button {
+    background-color: #4CAF50; /* 为按钮设置绿色背景 */
+    color: white; /* 按钮文本颜色 */
+    border: none; /* 去除边框 */
+    cursor: pointer; /* 鼠标悬停时显示指针 */
+    padding: 8px; /* 内边距 */
+  }
+  
+  .chat-input button:hover {
+    background-color: #45a049; /* 鼠标悬停时按钮背景颜色变深 */
+  }
