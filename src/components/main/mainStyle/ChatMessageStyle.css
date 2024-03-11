@@ -1,0 +1,16 @@
+.imageContainer{
+    width: 50px; /* 设置容器宽度 */
+  height: 50px; /* 设置容器高度 */
+  overflow: hidden; /* 隐藏超出容器尺寸的图片部分 */
+  border-radius: 50%; /* 可选，如果你想让图片显示为圆形 */
+  display: flex; /* 使用flex布局来居中图片 */
+  justify-content: center; /* 水平居中 */
+  align-items: center; /* 垂直居中 */
+}
+
+
+.profile-image {
+    width: 100%; /* 让图片宽度填满容器 */
+    height: 100%; /* 让图片高度填满容器 */
+    object-fit: cover; /* 确保图片内容以适当的比例填充容器 */
+  }
